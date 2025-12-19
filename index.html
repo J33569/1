@@ -40,7 +40,7 @@
                     h4
                     {
                         text-align: left;
-                        font-size: 60px;
+                        font-size: 40px;
                         font-family: arial;
                         color: #ffffff;
                         margin: 0px;
@@ -224,10 +224,31 @@ input:checked + .slider:before {
         font-family: BBHBartle-Regular;
         src: url(BBHBartle-Regular.woff2);
     }
+    .bbh{
+        font-family: BBHBartle-Regular;
+    }
+    </style>
+    <style>
+        @font-face {
+            font-family: patricstar;
+            src: url(PatrickHand-Regular.ttf);
+        }
+        .phr-font{
+            font-family: patricstar;
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: Lordcorps;
+            scr: url(Lordcorps.ttf);
+        }
+        .lc-font{
+            font-family: Lordcorps;
+        }
     </style>
     </head> 
     <body> 
-        <h4><a href="3html-code.vercel.app" style="color: white; text-decoration: none;">Jerome's website</a></h4>
+        <h4><a href="3html-code.vercel.app" style="color: white; text-decoration: none;" class="bbh">Jerome's website</a></h4>
         <ul>
             <li><a href="3html-code.vercel.app" class="active">Home</a></li>
             <li><a href="2html-code.vercel.app" class="act2">Contacts</a></li>
@@ -247,6 +268,7 @@ input:checked + .slider:before {
 
             </li>
         </ul>
+        <div class="phr-font">
         <div>
             <h1>text 1 here</h1>
             <p1>paragraph 1 here</p1>
@@ -267,8 +289,9 @@ input:checked + .slider:before {
             <h3>text 5 here</h3> 
             <p3>paragraph 5 here</p3>
         </div>
+        </div>
         <footer>
-            <a>
+            <a class="bbh">
                 test
             </a>
         </footer>
