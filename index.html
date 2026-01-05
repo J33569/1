@@ -1,5 +1,4 @@
-<html>
-        <head>
+<html><head>
                 <title>Welcome to Jerome</title> 
                 <style> 
                     body 
@@ -254,20 +253,51 @@ input:checked + .slider:before {
         .mc-font{
             font-family: minecraft;
         }
-    </style>
+    </style><style>.link{
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.link::after,
+.link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #777;
+    transition: all 0.6s ease-in-out;
+}
+
+.link::after{
+    top: 0;
+    right: 0;
+    transform-origin: right;
+}
+
+.link::before{
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+}
+
+.link:hover::after,
+.link:hover::before{
+    width: 100%;
+}</style>
     </head> 
     <body> 
         <h4><a href="3html-code.vercel.app" style="color: white; text-decoration: none;" class="lc-font">Jerome's website</a></h4>
         <ul>
-            <li><a href="3html-code.vercel.app" class="active lc-font">Home</a></li>
-            <li><a href="2html-code.vercel.app" class="act2 lc-font">Contacts</a></li>
-            <li><a href="1html-code.vercel.app" class="act2 lc-font">About</a></li>
-            <li style="float:right" class="dropdown"><a href="javascript:void(0)" class="dropbtn act2 lc-font">Etc.</a>
+            <li class="link"><a href="3html-code.vercel.app" class="active lc-font">Home</a></li>
+            <li class="link"><a href="2html-code.vercel.app" class="act2 lc-font">Contacts</a></li>
+            <li class="link"><a href="1html-code.vercel.app" class="act2 lc-font">About</a></li>
+            <li style="float:right" class="dropdown link"><a href="javascript:void(0)" class="dropbtn act2 lc-font">Etc.</a>
             <div class="dropdown-content">
-                <a href="" class="lc-font">Link 1</a>
-                <a href="" class="lc-font">Link 2</a>
-                <a href="" class="lc-font">Link 3</a>
-                <a class="lc-font">Light/Dark<label class="switch" style="position:absolute; right:0; margin-right: 3px; margin-bottom: 5.35px;">
+                <a href="" class="lc-font link">Link 1</a>
+                <a href="" class="lc-font link">Link 2</a>
+                <a href="" class="lc-font link">Link 3</a>
+                <a class="lc-font link">Light/Dark<label class="switch" style="position:absolute; right:0; margin-right: 3px; margin-bottom: 5.35px;">
   <input type="checkbox">
   <span class="slider round"></span>
 </label></a>
@@ -282,8 +312,8 @@ input:checked + .slider:before {
             <p1 class="phr-font">paragraph 1 here</p1>
         </div>
         <div> 
-            <h2 class="phr-font">text 2 here</h2>
-            <p2 class="phr-font">paragraph 2 here</p2>
+            <h2 class="mc-font">text 2 here</h2>
+            <p2 class="mc-font">paragraph 2 here</p2>
         </div>
         <div>
             <h3 class="phr-font">text 3 here</h3> 
