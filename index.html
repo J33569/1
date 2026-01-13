@@ -1,198 +1,212 @@
 <html>
-    <head>
-                <title>Welcome to My website</title> 
-                <style> 
-                    body 
-                    { 
-                        background-color: #000000;
-                    } 
-                    .dark-mode {
-                        background-color: white;
-                        color: black;
-                    }
-                </style> 
-                <style type="text/css"> 
-                    h1 
-                        { 
-                            text-align: center; 
-                            font-size: 120px; 
-                            font-family: arial; 
-                            color: red; 
-                        }         
-                </style> 
-                <style type="text/css"> 
-                    h2 
-                    { 
-                        text-align: left; 
-                        font-size: 100px; 
-                        font-family: subpixel-antialiased; 
-                        color: rgb(0,255,0); 
-                        margin-top: 480px;
-                    } 
-                </style> 
-                <style type="text/css"> 
-                    h3 
-                    { 
-                        text-align: right; 
-                        font-size: 120px; 
-                        font-family: sans-serif; 
-                        color: #0000FF; 
-                        margin-top: 480px;
-                    } 
-                </style>
-                <style type="text/css">
-                    h4
-                    {
-                        text-align: left;
-                        font-size: 60px;
-                        font-family: arial;
-                        color: #ffffff;
-                        margin: 0px;
-                        background-color: #333333;
-                    }
-                </style>
-                <style type="text/css"> 
-                    p1 
-                    { 
-                        text-align: center; 
-                        font-size: 50px; 
-                        font-family: arial; 
-                        color: red; 
-                        display: block;
-                    } 
-                </style>
-                <style type="text/css"> 
-                    p2 
-                    { 
-                        text-align: left; 
-                        font-size: 50px; 
-                        font-family: subpixel-antialiased; 
-                        color: rgb(0,255,0); 
-                        display: block;
-                    } 
-                </style>
-                <style type="text/css"> 
-                    p3 
-                    { 
-                        text-align: right; 
-                        font-size: 50px; 
-                        font-family: sans-serif; 
-                        color: #0000FF;
-                        display: block;
-                    } 
-                </style>
-                <style>
-                    body {
-                        margin: 0;
-                        padding: 0;
-                    }
-                    ul {
-                        list-style-type: none;
-                        margin: 0;
-                        padding: 0;
-                        overflow: shown;
-                        background-color: #333333;
-                        min-height: 46.4px;
-                    }
-                    ul li {
-                        float: left;
-                    }
-                    ul li a {
-                        display: block;
-                        color: white;
-                        text-align: center;
-                        padding: 14px 16px;
-                        text-decoration: none;
-                    }
-                    ul li a:hover:not(.active) {
-                        background-color: #111111;
-                    }
-                    ul li a.active {
-                        background-color: #26317a;
-                    }
-                    li a, .dropbtn {
-                        display: inline-block;
-                        color: white;
-                        text-align: center;
-                        padding:14px 16px;
-                        text-decoration: none;
-                    }
-                    li a:hover, .dropdown:hover .dropbtn {
-                        background-color: #111111;
-                    }
-                    li.dropdown {
-                        display: inline-block;
-                    }
-                    .dropdown-content {
-                        display: none;
-                        position: absolute;
-                        background-color: #333333;
-                        min-width: 160px;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                        z-index: 1;
-                        right: 0;
-                    }
-                    .dropdown-content a {
-                        color: white;
-                        padding: 12px 16px;
-                        text-decoration: none;
-                        display: block;
-                        text-align: left;
-                    }
-                    .dropdown-content a:hover {
-                        background: #333333;
-                    }
-                    .dropdown:hover .dropdown-content {
-                        display: block;
-                    }
-                    ul {
-                        position: sticky;
-                        top: 0;
-                    }
-                    ul li a.act2 {
-                        background-color: #333333;
-                    }
-                </style>
-                <style>
-    .button{
-        padding: 12px 16px;
-        padding-right: 80px;
-        color: white; 
-        background-color: #333; 
-        text-align: center; 
-        border: none;
-    }
-    .button:hover{
-        background-color: #111;
-    }
-                </style>
+
+<head>
+    <title>Welcome to My website</title>
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        .dark-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            font-size: 120px;
+            font-family: arial;
+            color: red;
+        }
+    </style>
+    <style type="text/css">
+        h2 {
+            text-align: left;
+            font-size: 100px;
+            font-family: subpixel-antialiased;
+            color: rgb(0, 255, 0);
+            margin-top: 480px;
+        }
+    </style>
+    <style type="text/css">
+        h3 {
+            text-align: right;
+            font-size: 120px;
+            font-family: sans-serif;
+            color: #0000FF;
+            margin-top: 480px;
+        }
+    </style>
+    <style type="text/css">
+        h4 {
+            text-align: left;
+            font-size: 60px;
+            font-family: arial;
+            color: #ffffff;
+            margin: 0px;
+            background-color: #333333;
+        }
+    </style>
+    <style type="text/css">
+        p1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: arial;
+            color: red;
+            display: block;
+        }
+    </style>
+    <style type="text/css">
+        p2 {
+            text-align: left;
+            font-size: 50px;
+            font-family: subpixel-antialiased;
+            color: rgb(0, 255, 0);
+            display: block;
+        }
+    </style>
+    <style type="text/css">
+        p3 {
+            text-align: right;
+            font-size: 50px;
+            font-family: sans-serif;
+            color: #0000FF;
+            display: block;
+        }
+    </style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: shown;
+            background-color: #333333;
+            min-height: 46.4px;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover:not(.active) {
+            background-color: #111111;
+        }
+
+        ul li a.active {
+            background-color: #26317a;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #111111;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            right: 0;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background: #333333;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        ul {
+            position: sticky;
+            top: 0;
+        }
+
+        ul li a.act2 {
+            background-color: #333333;
+        }
+    </style>
+    <style>
+        .button {
+            padding: 12px 16px;
+            padding-right: 80px;
+            color: white;
+            background-color: #333;
+            text-align: center;
+            border: none;
+        }
+
+        .button:hover {
+            background-color: #111;
+        }
+    </style>
 
     <style>
-        footer{
+        footer {
             background-color: #333;
             height: 300px;
             padding: 80px;
         }
-        footer a{
+
+        footer a {
             font-size: 55px;
             color: #fff;
         }
     </style>
     <style>
-    @font-face {
-        font-family: BBHBartle-Regular;
-        src: url(BBHBartle-Regular.woff2);
-    }
-    .bbh{
-        font-family: BBHBartle-Regular;
-    }
+        @font-face {
+            font-family: BBHBartle-Regular;
+            src: url(BBHBartle-Regular.woff2);
+        }
+
+        .bbh {
+            font-family: BBHBartle-Regular;
+        }
     </style>
     <style>
         @font-face {
             font-family: patricstar;
             src: url(PatrickHand-Regular.ttf);
         }
-        .phr-font{
+
+        .phr-font {
             font-family: patricstar;
         }
     </style>
@@ -201,7 +215,8 @@
             font-family: Lordcorps;
             src: url(Lordcorps.ttf);
         }
-        .lc-font{
+
+        .lc-font {
             font-family: Lordcorps;
         }
     </style>
@@ -210,51 +225,55 @@
             font-family: minecraft;
             src: url(MinecraftTen-VGORe.ttf);
         }
-        .mc-font{
+
+        .mc-font {
             font-family: minecraft;
         }
     </style>
     <style>
-    .link{
-    position: relative;
-    list-style: none;
-    padding: 0;
-}
+        .link {
+            position: relative;
+            list-style: none;
+            padding: 0;
+        }
 
-.link::after,
-.link::before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background: #777;
-    transition: all 0.6s ease-in-out;
-}
+        .link::after,
+        .link::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #777;
+            transition: all 0.6s ease-in-out;
+        }
 
-.link::after{
-    top: 0;
-    right: 0;
-    transform-origin: right;
-}
+        .link::after {
+            top: 0;
+            right: 0;
+            transform-origin: right;
+        }
 
-.link::before{
-    left: 0;
-    bottom: 0;
-    transform-origin: left;
-}
+        .link::before {
+            left: 0;
+            bottom: 0;
+            transform-origin: left;
+        }
 
-.link:hover::after,
-.link:hover::before{
-    width: 100%;
-}</style>
-    </head> 
-    <body> 
-        <h4><a href="3html-code.vercel.app" style="color: white; text-decoration: none;" class="lc-font">My not a template website</a></h4>
-        <ul>
-            <li class="link"><a href="3html-code.vercel.app" class="active lc-font">Home</a></li>
-            <li class="link"><a href="2html-code.vercel.app" class="act2 lc-font">Contacts</a></li>
-            <li class="link"><a href="1html-code.vercel.app" class="act2 lc-font">About</a></li>
-            <li style="float:right" class="dropdown link"><a href="javascript:void(0)" class="dropbtn act2 lc-font">Etc.</a>
+        .link:hover::after,
+        .link:hover::before {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h4><a href="3html-code.vercel.app" style="color: white; text-decoration: none;" class="lc-font">My not a template
+            website</a></h4>
+    <ul>
+        <li class="link"><a href="3html-code.vercel.app" class="active lc-font">Home</a></li>
+        <li class="link"><a href="2html-code.vercel.app" class="act2 lc-font">Contacts</a></li>
+        <li class="link"><a href="1html-code.vercel.app" class="act2 lc-font">About</a></li>
+        <li style="float:right" class="dropdown link"><a href="javascript:void(0)" class="dropbtn act2 lc-font">Etc.</a>
             <div class="dropdown-content">
                 <a href="" class="lc-font link">Link 1</a>
                 <a href="" class="lc-font link">Link 2</a>
@@ -262,35 +281,41 @@
                 <a class="link" style="padding: 0px 0px;">
                     <button onclick="Lightdarktoggle()" class="lc-font button">Light/Dark</button>
                 </a>
-</div>
-            </li>
-        </ul>
-        <script scr="mainscript.js"></script>
-        <div>
-            <h1 class="phr-font">Welcome to my website</h1>
-            <p1 class="phr-font">here I will be giving a quick intro of what there is</p1>
-        </div>
-        <div> 
-            <h2 class="mc-font">The about section</h2>
-            <p2 class="mc-font">The about section is more about me<br> and what I do including my plans for<br> the future.</p2>
-        </div>
-        <div>
-            <h3 class="phr-font">The contacts section</h3> 
-            <p3 class="phr-font">In the contacts section will be ways to find<br> me/contact me kind of like a linktree.</p3>
-        </div>
-        <div>
-            <h2 class="phr-font">The home section</h2> 
-            <p2 class="phr-font">This is the home section as you might have realised<br> and I am planning to add more to this section<br> including events and other things.</p2>
-        </div>
-        <div>
-            <h3 class="phr-font">The Etc. section</h3> 
-            <p3 class="phr-font">There is nothing there yet but i will end up<br> adding something like the most "important"<br> things like quick acess to discord and other<br> things including a FUNCTIONAL light/dark mode.</p3>
-        </div>
-        <footer>
-            <a class="lc-font">
-                My <br> website
-            </a>
-        </footer>
-    
+            </div>
+        </li>
+    </ul>
+    <script src="mainscript.js"></script>
+    <div>
+        <h1 class="phr-font">Welcome to my website</h1>
+        <p1 class="phr-font">here I will be giving a quick intro of what there is</p1>
+    </div>
+    <div>
+        <h2 class="mc-font">The about section</h2>
+        <p2 class="mc-font">The about section is more about me<br> and what I do including my plans for<br> the future.
+        </p2>
+    </div>
+    <div>
+        <h3 class="phr-font">The contacts section</h3>
+        <p3 class="phr-font">In the contacts section will be ways to find<br> me/contact me kind of like a linktree.
+        </p3>
+    </div>
+    <div>
+        <h2 class="phr-font">The home section</h2>
+        <p2 class="phr-font">This is the home section as you might have realised<br> and I am planning to add more to
+            this section<br> including events and other things.</p2>
+    </div>
+    <div>
+        <h3 class="phr-font">The Etc. section</h3>
+        <p3 class="phr-font">There is nothing there yet but i will end up<br> adding something like the most
+            "important"<br> things like quick acess to discord and other<br> things including a FUNCTIONAL light/dark
+            mode.</p3>
+    </div>
+    <footer>
+        <a class="lc-font">
+            My <br> website
+        </a>
+    </footer>
+
 </body>
+
 </html>
