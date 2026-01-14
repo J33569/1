@@ -74,6 +74,10 @@ ul li a.active {
     background-color: #26317a;
 }
 
+ul li a.active.dark-mode {
+    background-color: #6464ff;
+}
+
 li a,
 .dropbtn {
     display: inline-block;
