@@ -3,8 +3,8 @@ body {
 }
 
 .dark-mode {
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 h4 {
@@ -31,7 +31,7 @@ ul {
 }
 
 ul.dark-mode {
-    background-color: #ccc;
+    background-color: #ccc !important;
 }
 
 ul li {
@@ -47,7 +47,7 @@ ul li a {
 }
 
 ul li a.dark-mode {
-    color: #000000;
+    color: #000000 !important;
 }
 
 ul li a:hover:not(.active) {
@@ -55,7 +55,7 @@ ul li a:hover:not(.active) {
 }
 
 ul li a:hover:not(.active).dark-mode {
-    background-color: #eee;
+    background-color: #eee !important;
 }
 
 ul li a.active {
@@ -72,7 +72,7 @@ li a,
 }
 
 li a.dropbtn.dark-mode {
-    color: white;
+    color: black !important;
 }
 
 li a:hover,
@@ -81,8 +81,8 @@ li a:hover,
 }
 
 li a:hover,
-.dropdown:hover.dropbtn.dark-mode {
-    color: #eee;
+.dropdown:hover.dropbtn .dark-mode {
+    color: #eee !important;
 }
 
 li.dropdown {
@@ -100,7 +100,7 @@ li.dropdown {
 }
 
 .dropdown-content.dark-mode {
-    background-color: #ccc;
+    background-color: #ccc !important;
 }
 
 .dropdown-content a {
@@ -112,7 +112,7 @@ li.dropdown {
 }
 
 .dropdown-content a.dark-mode {
-    color: black;
+    color: black !important;
 }
 
 .dropdown-content a:hover {
@@ -120,7 +120,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover .dark-mode {
-    background: #ccc;
+    background: #ccc !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -137,7 +137,7 @@ ul li a.act2 {
 }
 
 ul li a.act2 .dark-mode {
-    background-color: #ccc;
+    background-color: #ccc !important;
 }
 
 .button {
@@ -150,8 +150,8 @@ ul li a.act2 .dark-mode {
 }
 
 .button.dark-mode {
-    color: #000;
-    background-color: #ccc;
+    color: #000 !important;
+    background-color: #ccc !important;
 }
 
 .button:hover {
@@ -159,7 +159,7 @@ ul li a.act2 .dark-mode {
 }
 
 .button:hover .dark-mode {
-    background-color: #eee;
+    background-color: #eee !important;
 }
 
 footer {
@@ -169,7 +169,7 @@ footer {
 }
 
 footer.dark-mode {
-    background-color: #ccc;
+    background-color: #ccc !important;
 }
 
 footer a {
@@ -178,7 +178,7 @@ footer a {
 }
 
 footer a.dark-mode {
-    color: #000;
+    color: #000 !important;
 }
 
 @font-face {
@@ -235,7 +235,7 @@ footer a.dark-mode {
 
 .link::after,
 .link::before .dark-mode {
-    background: #888;
+    background: #888 !important;
 }
 
 .link::after {
