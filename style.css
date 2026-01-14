@@ -30,6 +30,10 @@ ul {
     min-height: 46.4px;
 }
 
+ul.dark-mode {
+    background-color: #ccc;
+}
+
 ul li {
     float: left;
 }
@@ -42,8 +46,16 @@ ul li a {
     text-decoration: none;
 }
 
+ul li a.dark-mode {
+    color: #000000;
+}
+
 ul li a:hover:not(.active) {
     background-color: #111111;
+}
+
+ul li a:hover:not(.active).dark-mode {
+    background-color: #eee;
 }
 
 ul li a.active {
@@ -59,9 +71,18 @@ li a,
     text-decoration: none;
 }
 
+li a.dropbtn.dark-mode {
+    color: white;
+}
+
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: #111111;
+}
+
+li a:hover,
+.dropdown:hover.dropbtn.dark-mode {
+    color: #eee;
 }
 
 li.dropdown {
@@ -78,6 +99,10 @@ li.dropdown {
     right: 0;
 }
 
+.dropdown-content.dark-mode {
+    background-color: #ccc;
+}
+
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
@@ -86,8 +111,16 @@ li.dropdown {
     text-align: left;
 }
 
+.dropdown-content a.dark-mode {
+    color: black;
+}
+
 .dropdown-content a:hover {
     background: #333333;
+}
+
+.dropdown-content a:hover .dark-mode {
+    background: #ccc;
 }
 
 .dropdown:hover .dropdown-content {
@@ -103,6 +136,10 @@ ul li a.act2 {
     background-color: #333333;
 }
 
+ul li a.act2 .dark-mode {
+    background-color: #ccc;
+}
+
 .button {
     padding: 12px 16px;
     padding-right: 80px;
@@ -112,8 +149,17 @@ ul li a.act2 {
     border: none;
 }
 
+.button.dark-mode {
+    color: #000;
+    background-color: #ccc;
+}
+
 .button:hover {
     background-color: #111;
+}
+
+.button:hover .dark-mode {
+    background-color: #eee;
 }
 
 footer {
@@ -122,9 +168,17 @@ footer {
     padding: 80px;
 }
 
+footer.dark-mode {
+    background-color: #ccc;
+}
+
 footer a {
     font-size: 55px;
     color: #fff;
+}
+
+footer a.dark-mode {
+    color: #000;
 }
 
 @font-face {
@@ -177,6 +231,11 @@ footer a {
     height: 2px;
     background: #777;
     transition: all 0.6s ease-in-out;
+}
+
+.link::after,
+.link::before .dark-mode {
+    background: #888;
 }
 
 .link::after {
