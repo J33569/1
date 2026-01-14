@@ -2,7 +2,7 @@ body {
     background-color: #000000;
 }
 
-body .dark-mode {
+body.dark-mode {
     background-color: white !important;
 }
 
@@ -15,11 +15,11 @@ h4 {
     background-color: #333333;
 }
 
-h4 a .dark-mode {
+h4 a.dark-mode {
     color: #000 !important;
 }
 
-h4 .dark-mode {
+h4.dark-mode {
     color: #000;
     background-color: #ccc !important;
 }
@@ -148,7 +148,7 @@ ul li a.act2 {
     background-color: #333333;
 }
 
-ul li a.act2 .dark-mode {
+ul li a.act2.dark-mode {
     background-color: #ccc !important;
 }
 
