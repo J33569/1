@@ -1,4 +1,6 @@
 function Lightdarktoggle() {
    var allElements = document.querySelectorAll("*");
-   element.classList.toggle("dark-mode");
+   allElements.forEach(function (el) {
+      el.classList.toggle("dark-mode");
+   });
 }
