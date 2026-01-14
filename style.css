@@ -5,6 +5,7 @@ body {
 body .dark-mode {
     background-color: white !important;
 }
+
 h4 {
     text-align: left;
     font-size: 60px;
@@ -13,10 +14,20 @@ h4 {
     margin: 0px;
     background-color: #333333;
 }
-h4 .dark-mode{
+
+h4 a .dark-mode {
+    color: #000 !important;
+}
+
+h4 .dark-mode {
     color: #000;
     background-color: #ccc !important;
 }
+
+h4 a {
+    color: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;
