@@ -306,3 +306,10 @@ footer a.dark-mode {
     color: #0000FF;
     display: block;
 }
+
+#currentTime {
+  font-size: 16px;
+  font-family: Lordcorps;
+  color: #fff;
+  margin: 0px;
+}
