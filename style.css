@@ -1,12 +1,14 @@
 body {
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 body.dark-mode {
     background-color: white !important;
 }
 
-h4 {
+.h4 {
     text-align: left;
     font-size: 60px;
     font-family: arial;
@@ -15,22 +17,9 @@ h4 {
     background-color: #333333;
 }
 
-h4 a.dark-mode {
+.h4.dark-mode {
     color: #000 !important;
-}
-
-h4.dark-mode {
-    color: #000;
     background-color: #ccc !important;
-}
-
-h4 a {
-    color: #fff;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 ul {
@@ -269,4 +258,51 @@ footer a.dark-mode {
 .link:hover::after,
 .link:hover::before {
     width: 100%;
+}
+
+.hh1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: arial;
+    color: red;
+}
+
+.hp1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    color: red;
+    display: block;
+}
+
+.hh2 {
+    text-align: left;
+    font-size: 100px;
+    font-family: subpixel-antialiased;
+    color: rgb(0, 255, 0);
+    margin-top: 480px;
+}
+
+.hp2 {
+    text-align: left;
+    font-size: 50px;
+    font-family: subpixel-antialiased;
+    color: rgb(0, 255, 0);
+    display: block;
+}
+
+.hh3 {
+    text-align: right;
+    font-size: 120px;
+    font-family: sans-serif;
+    color: #0000FF;
+    margin-top: 480px;
+}
+
+.hp3 {
+    text-align: right;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #0000FF;
+    display: block;
 }
