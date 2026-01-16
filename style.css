@@ -310,6 +310,7 @@ footer a.dark-mode {
 #currentTime {
   font-size: 16px;
   font-family: Lordcorps;
+  text-align: center;
   color: #fff;
   margin: 0px;
 }
