@@ -17,7 +17,7 @@ body.dark-mode {
     background-color: #333333;
 }
 
-.h4.dark-mode {
+.header.dark-mode {
     color: #000 !important;
     background-color: #ccc !important;
 }
@@ -315,6 +315,10 @@ footer a.dark-mode {
     margin: 0px;
     padding: 14px 16px;
     font-weight: normal;
+}
+
+#currentTime.dark-mode {
+    color: #000 !important;
 }
 
 .ch1 {
