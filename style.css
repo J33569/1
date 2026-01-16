@@ -8,7 +8,7 @@ body.dark-mode {
     background-color: white !important;
 }
 
-.h4 {
+.header {
     text-align: left;
     font-size: 60px;
     font-family: arial;
@@ -308,11 +308,41 @@ footer a.dark-mode {
 }
 
 #currentTime {
-  font-size: 16px;
-  font-family: Lordcorps;
-  text-align: center;
-  color: #fff;
-  margin: 0px;
-  padding: 14px 16px;
-  font-weight: normal;
+    font-size: 16px;
+    font-family: Lordcorps;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    padding: 14px 16px;
+    font-weight: normal;
+}
+
+.ch1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #fff;
+}
+
+.cp1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #fff;
+    display: block;
+}
+
+.ah1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #fff;
+}
+
+.ap1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #fff;
+    display: block;
 }
