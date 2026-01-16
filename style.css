@@ -346,3 +346,33 @@ footer a.dark-mode {
     color: #fff;
     display: block;
 }
+
+.ch1.dark-mode {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #000;
+}
+
+.cp1.dark-mode {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #000;
+    display: block;
+}
+
+.ah1.dark-mode {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #000;
+}
+
+.ap1.dark-mode {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #000;
+    display: block;
+}
