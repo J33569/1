@@ -9,6 +9,7 @@ function ldtb() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+
 window.onload = function () {
    clock();
    function clock() {
