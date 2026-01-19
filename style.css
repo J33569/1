@@ -450,3 +450,124 @@ footer a {
         display: block;
     }
 }
+
+body.dark-mode {
+    background-color: white !important;
+}
+
+.header.dark-mode {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+ul.dark-mode {
+    background-color: #ccc !important;
+}
+
+ul li a.dark-mode {
+    color: #000000 !important;
+}
+
+ul li a:hover:not(.active).dark-mode {
+    background-color: #eee !important;
+}
+
+ul li a.active.dark-mode {
+    background-color: #6464ff;
+}
+
+li a.dropbtn.dark-mode {
+    color: black !important;
+}
+
+li a:hover,
+.dropdown:hover.dropbtn .dark-mode {
+    color: #eee !important;
+}
+
+.dropdown-content.dark-mode {
+    background-color: #ccc !important;
+}
+
+.dropdown-content a.dark-mode {
+    color: black !important;
+}
+
+.dropdown-content a:hover .dark-mode {
+    background: #ccc !important;
+}
+
+ul li a.act2.dark-mode {
+    background-color: #ccc !important;
+}
+
+.button.dark-mode {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.button:hover .dark-mode {
+    background-color: #eee !important;
+}
+
+footer.dark-mode {
+    background-color: #ccc !important;
+}
+
+footer a.dark-mode {
+    color: #000 !important;
+}
+
+.link::after,
+.link::before .dark-mode {
+    background: #888 !important;
+}
+
+#currentTime.dark-mode {
+    color: #000 !important;
+}
+
+.ch1.dark-mode {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #000;
+}
+
+.cp1.dark-mode {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #000;
+    display: block;
+}
+
+.ah1.dark-mode {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #000;
+}
+
+.ap1.dark-mode {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #000;
+    display: block;
+}
+
+.lh1.dark-mode {
+    text-align: center;
+    font-size: 120px;
+    font-family: Lordcorps;
+    color: #000;
+}
+
+.lp1.dark-mode {
+    text-align: center;
+    font-size: 50px;
+    font-family: Lordcorps;
+    color: #000;
+    display: block;
+}
