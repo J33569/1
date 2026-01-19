@@ -3,9 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-body.dark-mode {
-    background-color: white !important;
-}
+
 
 .header {
     text-align: left;
@@ -16,10 +14,7 @@ body.dark-mode {
     background-color: #333333;
 }
 
-.header.dark-mode {
-    color: #000 !important;
-    background-color: #ccc !important;
-}
+
 
 ul {
     list-style-type: none;
@@ -30,9 +25,6 @@ ul {
     min-height: 46.4px;
 }
 
-ul.dark-mode {
-    background-color: #ccc !important;
-}
 
 ul li {
     float: left;
@@ -46,25 +38,19 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a.dark-mode {
-    color: #000000 !important;
-}
+
 
 ul li a:hover:not(.active) {
     background-color: #111111;
 }
 
-ul li a:hover:not(.active).dark-mode {
-    background-color: #eee !important;
-}
+
 
 ul li a.active {
     background-color: #26317a;
 }
 
-ul li a.active.dark-mode {
-    background-color: #6464ff;
-}
+
 
 li a,
 .dropbtn {
@@ -75,19 +61,14 @@ li a,
     text-decoration: none;
 }
 
-li a.dropbtn.dark-mode {
-    color: black !important;
-}
+
 
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: #111111;
 }
 
-li a:hover,
-.dropdown:hover.dropbtn .dark-mode {
-    color: #eee !important;
-}
+
 
 li.dropdown {
     display: inline-block;
@@ -103,9 +84,7 @@ li.dropdown {
     right: 0;
 }
 
-.dropdown-content.dark-mode {
-    background-color: #ccc !important;
-}
+
 
 .dropdown-content a {
     color: white;
@@ -115,17 +94,13 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a.dark-mode {
-    color: black !important;
-}
+
 
 .dropdown-content a:hover {
     background: #333333;
 }
 
-.dropdown-content a:hover .dark-mode {
-    background: #ccc !important;
-}
+
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -140,9 +115,7 @@ ul li a.act2 {
     background-color: #333333;
 }
 
-ul li a.act2.dark-mode {
-    background-color: #ccc !important;
-}
+
 
 .button {
     padding: 12px 16px;
@@ -153,18 +126,13 @@ ul li a.act2.dark-mode {
     border: none;
 }
 
-.button.dark-mode {
-    color: #000 !important;
-    background-color: #ccc !important;
-}
+
 
 .button:hover {
     background-color: #111;
 }
 
-.button:hover .dark-mode {
-    background-color: #eee !important;
-}
+
 
 footer {
     background-color: #333;
@@ -172,18 +140,14 @@ footer {
     padding: 80px;
 }
 
-footer.dark-mode {
-    background-color: #ccc !important;
-}
+
 
 footer a {
     font-size: 55px;
     color: #fff;
 }
 
-footer a.dark-mode {
-    color: #000 !important;
-}
+
 
 @font-face {
     font-family: BBHBartle-Regular;
@@ -237,10 +201,7 @@ footer a.dark-mode {
     transition: all 0.6s ease-in-out;
 }
 
-.link::after,
-.link::before .dark-mode {
-    background: #888 !important;
-}
+
 
 .link::after {
     top: 0;
@@ -316,9 +277,7 @@ footer a.dark-mode {
     font-weight: normal;
 }
 
-#currentTime.dark-mode {
-    color: #000 !important;
-}
+
 
 .ch1 {
     text-align: center;
@@ -350,35 +309,7 @@ footer a.dark-mode {
     display: block;
 }
 
-.ch1.dark-mode {
-    text-align: center;
-    font-size: 120px;
-    font-family: Lordcorps;
-    color: #000;
-}
 
-.cp1.dark-mode {
-    text-align: center;
-    font-size: 50px;
-    font-family: Lordcorps;
-    color: #000;
-    display: block;
-}
-
-.ah1.dark-mode {
-    text-align: center;
-    font-size: 120px;
-    font-family: Lordcorps;
-    color: #000;
-}
-
-.ap1.dark-mode {
-    text-align: center;
-    font-size: 50px;
-    font-family: Lordcorps;
-    color: #000;
-    display: block;
-}
 
 .lh1 {
     text-align: center;
@@ -395,17 +326,127 @@ footer a.dark-mode {
     display: block;
 }
 
-.lh1.dark-mode {
-    text-align: center;
-    font-size: 120px;
-    font-family: Lordcorps;
-    color: #000;
-}
 
-.lp1.dark-mode {
-    text-align: center;
-    font-size: 50px;
-    font-family: Lordcorps;
-    color: #000;
-    display: block;
+
+@media (prefers-color-scheme: light) {
+    body.dark-mode {
+        background-color: white !important;
+    }
+
+    .header.dark-mode {
+        color: #000 !important;
+        background-color: #ccc !important;
+    }
+
+    ul.dark-mode {
+        background-color: #ccc !important;
+    }
+
+    ul li a.dark-mode {
+        color: #000000 !important;
+    }
+
+    ul li a:hover:not(.active).dark-mode {
+        background-color: #eee !important;
+    }
+
+    ul li a.active.dark-mode {
+        background-color: #6464ff;
+    }
+
+    li a.dropbtn.dark-mode {
+        color: black !important;
+    }
+
+    li a:hover,
+    .dropdown:hover.dropbtn .dark-mode {
+        color: #eee !important;
+    }
+
+    .dropdown-content.dark-mode {
+        background-color: #ccc !important;
+    }
+
+    .dropdown-content a.dark-mode {
+        color: black !important;
+    }
+
+    .dropdown-content a:hover .dark-mode {
+        background: #ccc !important;
+    }
+
+    ul li a.act2.dark-mode {
+        background-color: #ccc !important;
+    }
+
+    .button.dark-mode {
+        color: #000 !important;
+        background-color: #ccc !important;
+    }
+
+    .button:hover .dark-mode {
+        background-color: #eee !important;
+    }
+
+    footer.dark-mode {
+        background-color: #ccc !important;
+    }
+
+    footer a.dark-mode {
+        color: #000 !important;
+    }
+
+    .link::after,
+    .link::before .dark-mode {
+        background: #888 !important;
+    }
+
+    #currentTime.dark-mode {
+        color: #000 !important;
+    }
+
+    .ch1.dark-mode {
+        text-align: center;
+        font-size: 120px;
+        font-family: Lordcorps;
+        color: #000;
+    }
+
+    .cp1.dark-mode {
+        text-align: center;
+        font-size: 50px;
+        font-family: Lordcorps;
+        color: #000;
+        display: block;
+    }
+
+    .ah1.dark-mode {
+        text-align: center;
+        font-size: 120px;
+        font-family: Lordcorps;
+        color: #000;
+    }
+
+    .ap1.dark-mode {
+        text-align: center;
+        font-size: 50px;
+        font-family: Lordcorps;
+        color: #000;
+        display: block;
+    }
+
+    .lh1.dark-mode {
+        text-align: center;
+        font-size: 120px;
+        font-family: Lordcorps;
+        color: #000;
+    }
+
+    .lp1.dark-mode {
+        text-align: center;
+        font-size: 50px;
+        font-family: Lordcorps;
+        color: #000;
+        display: block;
+    }
 }
