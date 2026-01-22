@@ -277,7 +277,16 @@ footer a {
     font-weight: normal;
 }
 
-
+#currentTime.time {
+    font-size: 200px !important;
+    font-family: Lordcorps !important;
+    text-align: center !important;
+    color: #fff !important;
+    margin: 0px !important;
+    margin-top: 150px !important;
+    padding: 0px !important;
+    font-weight: normal !important;
+}
 
 .ch1 {
     text-align: center;
