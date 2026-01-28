@@ -1,0 +1,43 @@
+function Lightdarktoggle() {
+   const bodyElements = document.body.querySelectorAll("*");
+   bodyElements.forEach(el => {
+      el.classList.toggle("dark-mode");
+   });
+}
+
+function ldtb() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+window.onload = function () {
+   clock();
+   function clock() {
+      var now = new Date();
+      var TwentyFourHour = now.getHours();
+      var hour = now.getHours();
+      var min = now.getMinutes();
+      var sec = now.getSeconds();
+      var mid = 'pm';
+      if (sec < 10) {
+         sec = "0" + sec;
+      }
+      if (min < 10) {
+         min = "0" + min;
+      }
+      if (hour > 12) {
+         hour = hour - 12;
+      }
+      if (hour < 10) {
+         hour = "0" + hour;
+      }
+      if (hour == 0) {
+         hour = 12;
+      }
+      if (TwentyFourHour < 12) {
+         mid = 'am';
+      }
+      document.getElementById('currentTime').innerHTML = hour + ':' + min + ':' + sec + ' ' + mid;
+      setTimeout(clock, 1000);
+   }
+}
