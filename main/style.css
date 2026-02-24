@@ -12,10 +12,10 @@ body {
     color: #ffffff;
     margin: 0px;
     background-color: #000;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
-a.header{
+a.header {
     text-decoration: none;
 }
 
@@ -490,6 +490,10 @@ a.footer.link2 {
         color: #000;
         display: block;
     }
+
+    .footer.dark-mode {
+        color: #000;
+    }
 }
 
 body.dark-mode {
@@ -611,4 +615,8 @@ footer a.dark-mode {
     font-family: Lordcorps;
     color: #000;
     display: block;
+}
+
+.footer.dark-mode {
+    color: #000;
 }
