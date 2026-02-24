@@ -9,7 +9,7 @@ body {
     text-align: left;
     font-size: 60px;
     font-family: arial;
-    color: #ffffff;
+    color: #fff;
     margin: 0px;
     background-color: #000;
     padding-left: 10px;
@@ -44,13 +44,13 @@ ul li a {
 
 
 ul li a:hover:not(.active) {
-    background-color: #111111;
+    background-color: #111;
 }
 
 
 
 ul li a.active {
-    background-color: #26317a;
+    background-color: #238;
 }
 
 
@@ -68,7 +68,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #111111;
+    background-color: #111;
 }
 
 
@@ -123,7 +123,7 @@ ul li a.act2 {
 .button {
     padding: 12px 16px;
     padding-right: 80px;
-    color: white;
+    color: #fff;
     background-color: #000;
     text-align: center;
     border: none;
@@ -371,7 +371,7 @@ a.footer.link2 {
 
 @media (prefers-color-scheme: light) {
     body.dark-mode {
-        background-color: white !important;
+        background-color: #fff !important;
     }
 
     .header.dark-mode {
@@ -384,7 +384,7 @@ a.footer.link2 {
     }
 
     ul li a.dark-mode {
-        color: #000000 !important;
+        color: #000 !important;
     }
 
     ul li a:hover:not(.active).dark-mode {
@@ -392,11 +392,11 @@ a.footer.link2 {
     }
 
     ul li a.active.dark-mode {
-        background-color: #6464ff;
+        background-color: #66f;
     }
 
     li a.dropbtn.dark-mode {
-        color: black !important;
+        color: #000 !important;
     }
 
     li a:hover,
@@ -409,7 +409,7 @@ a.footer.link2 {
     }
 
     .dropdown-content a.dark-mode {
-        color: black !important;
+        color: #000 !important;
     }
 
     .dropdown-content a:hover .dark-mode {
@@ -497,7 +497,7 @@ a.footer.link2 {
 }
 
 body.dark-mode {
-    background-color: white !important;
+    background-color: #fff !important;
 }
 
 .header.dark-mode {
@@ -510,7 +510,7 @@ ul.dark-mode {
 }
 
 ul li a.dark-mode {
-    color: #000000 !important;
+    color: #000 !important;
 }
 
 ul li a:hover:not(.active).dark-mode {
@@ -518,11 +518,11 @@ ul li a:hover:not(.active).dark-mode {
 }
 
 ul li a.active.dark-mode {
-    background-color: #6464ff;
+    background-color: #66f;
 }
 
 li a.dropbtn.dark-mode {
-    color: black !important;
+    color: #000 !important;
 }
 
 li a:hover,
@@ -535,7 +535,7 @@ li a:hover,
 }
 
 .dropdown-content a.dark-mode {
-    color: black !important;
+    color: #000 !important;
 }
 
 .dropdown-content a:hover .dark-mode {
