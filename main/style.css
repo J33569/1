@@ -181,6 +181,19 @@ a.footer.link2 {
     background-size: 100% 3px;
 }
 
+.hc {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+li.hc2 {
+    padding: 14 16 14 16;
+}
+
 @font-face {
     font-family: BBHBartle-Regular;
     src: url(BBHBartle-Regular.woff2);
